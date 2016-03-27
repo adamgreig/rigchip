@@ -2,15 +2,15 @@ Bill Of Materials
 =================
 
 Source file: rigchip.xml
-Date: 2016-03-27T16:28:54.525591
+Date: 2016-03-27T17:54:07.067092
 
 Parts Missing Footprints
 ------------------------
-
+X1     CONN           
+X2     CONN           
 
 Parts Missing Order Codes
 -------------------------
-IC2    CHIPv1_0        agg:CHIPv1_0
 J2     DATA            agg:S05B-PASK-2
 J3     CONTROL         agg:S03B-PASK-2
 J1     POWER           agg:S02B-PASK-2
@@ -30,6 +30,7 @@ D8     GRN             agg:0603-LED
 D9     RED             agg:0603-LED
 R1     1k              agg:0603
 R2     1k              agg:0603
+IC2    CHIPv1_0        agg:CHIPv1_0
 
 Inconsistent Order Codes
 ------------------------
@@ -41,10 +42,12 @@ Vendor Specific BOMs
   ~~~~~~~
 2292530,1,1x 6µ8 TYS5040
 2368169,7,7x ESD_DIODE 0402
+1569230,2,2x CONN None
 
 
 Assembly BOM
 ------------
 2292530              1   6µ8             TYS5040         L1
 2368169              7   ESD_DIODE       0402            D1 D2 D3 D4 D5 D6 D7
+1569230              2   CONN            None            X1 X2
 
