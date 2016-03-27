@@ -56,6 +56,7 @@ F 0 "IC1" H 2350 1200 50  0000 L CNN
 F 1 "TSR1" H 2350 800 50  0000 L CNN
 F 2 "agg:TSR1" H 2350 700 50  0001 L CNN
 F 3 "http://www.tracopower.com/products/tsr1.pdf" H 2350 600 50  0001 L CNN
+F 4 "1696320" H 2650 1000 60  0001 C CNN "Farnell"
 	1    2650 1000
 	1    0    0    -1  
 $EndComp
